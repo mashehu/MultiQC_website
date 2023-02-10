@@ -9,7 +9,7 @@ import Hero from "../layout/Hero";
 const ModulesPage = () => {
   const data = useStaticQuery(graphql`
     query {
-      modules: allModule(sort: { fields: title }) {
+      modules: allModule(sort: { title: ASC }) {
         nodes {
           slug
           path

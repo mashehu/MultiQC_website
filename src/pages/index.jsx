@@ -30,7 +30,7 @@ import Hero from "../layout/Hero";
 const HomePage = ({ location }) => {
   const data = useStaticQuery(graphql`
     query {
-      exampleReports: allExampleReport(sort: { fields: title }) {
+      exampleReports: allExampleReport(sort: { title: ASC }) {
         nodes {
           embed
           title

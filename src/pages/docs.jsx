@@ -10,14 +10,14 @@ import Hero from "../layout/Hero";
 const DocsPage = () => {
   const data = useStaticQuery(graphql`
     query {
-      sections: allDoc(filter: { isSection: { eq: true } }, sort: { fields: order }) {
+      sections: allDoc(filter: { isSection: { eq: true } }, sort: { order: ASC }) {
         nodes {
           path
           title
           description
         }
       }
-      docs: allDoc(sort: { fields: order }) {
+      docs: allDoc(sort: { order: ASC }) {
         nodes {
           path
           title
