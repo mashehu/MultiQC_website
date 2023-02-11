@@ -105,9 +105,9 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-gtag`,
+      resolve: `gatsby-plugin-gtag`,
       options: {
-        trackingIds: ["G-92P10F5GQ1"],
+        trackingId: "G-92P10F5GQ1",
       },
     },
     "gatsby-plugin-postcss",

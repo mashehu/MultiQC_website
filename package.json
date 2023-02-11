@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Oleh Pratsko <olehpratsko@gmail.com>",
   "dependencies": {
+    "@iconify/react-with-api": "^1.0.0-rc.7",
     "@mdx-js/mdx": "^2.3.0",
     "@mdx-js/react": "^2.3.0",
     "autoprefixer": "^10.4.13",
@@ -12,7 +13,7 @@
     "gatsby": "^5.6.0",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-canonical-urls": "^5.6.0",
-    "gatsby-plugin-google-gtag": "^5.6.0",
+    "gatsby-plugin-gtag": "^1.0.13",
     "gatsby-plugin-image": "^3.6.0",
     "gatsby-plugin-layout": "^4.6.0",
     "gatsby-plugin-manifest": "^5.6.0",
@@ -42,7 +43,6 @@
     "website-components": "git+https://github.com/seqeralabs/website-components.git"
   },
   "devDependencies": {
-    "@iconify/react-with-api": "^1.0.0-rc.7",
     "prettier": "^2.8.4",
     "prettier-plugin-organize-imports": "^3.2.2",
     "prettier-plugin-tailwindcss": "^0.2.2",
@@ -51,7 +51,7 @@
   "keywords": [
     "gatsby"
   ],
-  "license": "0BSD",
+  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
